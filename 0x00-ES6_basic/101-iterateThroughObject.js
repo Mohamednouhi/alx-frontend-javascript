@@ -5,7 +5,7 @@ export default function iterateThroughObject(reportWithIterator) {
   // Iterate through the iterator and concatenate employee names
   for (const item of reportWithIterator) {
     // Add each employee name to the result string
-    result += item + ' | ';
+    result += `${item} |`;
   }
 
   // Remove the trailing ' | ' from the end of the result string
